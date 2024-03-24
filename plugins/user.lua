@@ -26,4 +26,10 @@ return {
       { "<leader>T", "<cmd>TodoTelescope<cr>", desc = "Open TODOs in Telescope" },
     },
   },
+  {
+    "sourcegraph/sg.nvim",
+    dependencies = { "nvim-lua/plenary.nvim" },
+    event = "User AstroFile",
+    config = function() require("sg").setup {} end,
+  },
 }

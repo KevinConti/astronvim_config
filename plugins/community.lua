@@ -16,7 +16,7 @@ return {
   --    <C-,> : Previous suggestion
   --    <C-x> : Clear suggestions
   --    <leader>; : Toggle Codeium
-  { import = "astrocommunity.completion.codeium-vim" },
+  -- { import = "astrocommunity.completion.codeium-vim" }, -- Using https://github.com/sourcegraph/sg.nvim currently
   -- DIAGNOSTICS
   --  Trouble
   { import = "astrocommunity.diagnostics.trouble-nvim" },
