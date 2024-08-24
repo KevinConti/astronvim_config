@@ -31,7 +31,7 @@ return {
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
-    ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    ["<C-s>"] = { ":w!<cr>", desc = "Save File" }, -- change description but the same command
     -- Fix scrolling
     ["<C-d>"] = { "<C-D>zz", desc = "Scroll down" },
     ["<C-u>"] = { "<C-U>zz", desc = "Scroll up" },
@@ -40,4 +40,8 @@ return {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
   },
+  -- set a keybinding for the AiderOpen function
+  vim.api.nvim_set_keymap("n", "<leader>oa", "<cmd>lua AiderOpen()<cr>", { noremap = true, silent = true }),
+  -- set a keybinding for the AiderBackground function
+  vim.api.nvim_set_keymap("n", "<leader>ob", "<cmd>lua AiderBackground()<cr>", { noremap = true, silent = true }),
 }

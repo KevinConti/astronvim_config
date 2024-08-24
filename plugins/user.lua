@@ -32,4 +32,5 @@ return {
     event = "User AstroFile",
     config = function() require("sg").setup {} end,
   },
+  "joshuavial/aider.nvim",
 }
