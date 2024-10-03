@@ -10,7 +10,6 @@ return {
   { import = "astrocommunity.pack.gleam" },
   { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
   { import = "astrocommunity.colorscheme.catppuccin" },
-  { import = "astrocommunity.motion.nvim-spider" },
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.motion.hop-nvim" },
 }

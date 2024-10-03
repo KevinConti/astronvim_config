@@ -9,8 +9,8 @@ return {
   ---@type AstroUIOpts
   opts = {
     -- change colorscheme
-    -- colorscheme = "catppuccin-mocha", -- Pastel theme
-    colorscheme = "onedark_dark", -- Dark theme
+    colorscheme = "catppuccin-mocha", -- Pastel theme
+    -- colorscheme = "onedark_dark", -- Dark theme
     -- AstroUI allows you to easily modify highlight groups easily for any and all colorschemes
     highlights = {
       init = { -- this table overrides highlights in all themes
